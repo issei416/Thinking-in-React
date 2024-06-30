@@ -1,8 +1,12 @@
-# React + Vite
+# Thinking in REACT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This projects helped me understand :
+* the structure of react project
+* identifying components
+* deciding on states
+* where states should live
+* passing data using props and inverse data flow
+* props vs states
+* using hooks for functional components
+  
+The best beginer guide for any developer before starting react projects. It's a must to do if you wnat to master react,  [click here](https://react.dev/learn/thinking-in-react) to visit the site for complete guide.
