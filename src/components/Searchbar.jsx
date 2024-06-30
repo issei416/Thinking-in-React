@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Searchbar = () => {
+const Searchbar = ({filterText , inStockOnly}) => {
   return (
       <>
           <form className='d-flex flex-column'>
-              <input type="text" placeholder="search..." />
+              <input type="text" value={ filterText} placeholder="search..." />
               <label>
-                  <input type="checkbox" />
+                  <input type="checkbox" checked={ inStockOnly} />
                   {" "}
                   only show products in stock
               </label>

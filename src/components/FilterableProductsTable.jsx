@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Searchbar from './Searchbar'
 import ProductsTable from './ProductsTable'
 
-const FilterableProductsTable = ({products}) => {
+const FilterableProductsTable = ({ products }) => {
+    const [filterText, setFilterText] = useState("");
+    const [inStockOnly,setInStockOnly] = useState(false);
   return (
       <>
-          <Searchbar />
-          <ProductsTable products= { products } />
+          <Searchbar filterText={filterText} inStockOnly={inStockOnly}/>
+          <ProductsTable products= { products } filterText={filterText} inStockOnly={inStockOnly} />
       </>
   )
 }
